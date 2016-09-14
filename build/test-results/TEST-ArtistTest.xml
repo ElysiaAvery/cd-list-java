@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArtistTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2016-09-14T22:52:16" hostname="epicodus-12.local" time="0.002">
+  <properties/>
+  <testcase name="artist_instantiatesCorrectly_true" classname="ArtistTest" time="0.001"/>
+  <testcase name="find_returnsArtistWithSameId_secondArtist" classname="ArtistTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfArtist_true" classname="ArtistTest" time="0.0"/>
+  <testcase name="getId_artistInstantiatesWithAnId_1" classname="ArtistTest" time="0.0"/>
+  <testcase name="getName_artistInstantiatesWithName_BlackSabbath" classname="ArtistTest" time="0.0"/>
+  <testcase name="addCD_addsCdToArtist_true" classname="ArtistTest" time="0.0"/>
+  <testcase name="clear_emptiesAllArtistsFromArrayList_0" classname="ArtistTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

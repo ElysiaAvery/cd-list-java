@@ -1,17 +1,4 @@
-<h1>Please Enter a CD you own.</h1>
-#if ($cds)
-  <ul>
-    #foreach ($cd in $cds)
-    <li>$cd.getName()</li>
-    #end
-  </ul>
-#else
-  <p>No CD</p>
-#end
-<form action="/cd" method="post">
-  <div class='form-group'>
-    <label for='user-cd'>New cd:</label>
-    <input id='user-cd' name='user-cd' class='form-control' type='text'>
-  </div>
-  <button type='submit' class='btn btn-success'>Submit</button>
-</form>
+<h1>Welcome to the CD Organizer</h1>
+
+<a href="/artists">View all artists</a>
+<a href="/artists/new">Add a new artist</a>
